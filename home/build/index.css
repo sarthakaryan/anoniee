@@ -10,7 +10,7 @@ img:hover{
 }
 
 body {
-	background: #303841;
+	background: #0e142d;
 
 }
 
@@ -26,36 +26,36 @@ button {
 	padding-left: 40px;
 	padding-right: 40px;
 	height: 40px;
-	border: 2px solid #6582a6;
+	border: 2px solid #ff0059;
 	background: transparent;
-	color: #6582a6;
+	color: #ff0059;
 	transition: 0.5s;
 
 }
 button:hover{
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
-	background: #6582a6;
+	background: #ff0059;
 	color: black;
 	transition: 0.5s;
 	transform: scale(1.3);
-	box-shadow: 0 0 40px 0px rgba(101, 130, 166, 0.5);
+	box-shadow: 0 0 40px 0px rgb(177 48 93 / 50%);
 	margin-left: 20px;
 }
 
 .container{
 	width: 700px;
-	border-left: 5px solid #6582a6;
+	border-left: 5px solid #b1305d;
 	transition: 0.5s;
 	padding: 40px;
 }
 
 .container:hover{
 	transform: translateZ(0);
-	background: rgba(101, 130, 166, 0.1);
+	background: rgba(177, 48, 93,0.1);
 	backdrop-filter: blur(10px);
 	transform: scale(1.1);
-	border-left: 5px solid #6582a6;
+	border-left: 5px solid #b1305d;
 	transition: 0.5s;
 	box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.05);
 }
@@ -138,5 +138,5 @@ input[type="text"]{
 	outline: none;
 }
 input[type="text"]:hover{
-	box-shadow: 0 0 40px 0px rgba(101, 130, 166, 0.5);
+	box-shadow: 0 0 30px 0px rgb(177 48 93 / 50%);
 }
